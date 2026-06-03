@@ -1,0 +1,3 @@
+echo "version=1.0.0" > version.txt
+git add version.txt
+git commit -m "chore: add version file"
