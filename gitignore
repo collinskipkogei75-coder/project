@@ -1,0 +1,6 @@
+echo "# Ignore logs folder" > .gitignore
+echo "logs/" >> .gitignore
+echo "# Ignore .env files" >> .gitignore
+echo ".env" >> .gitignore
+git add .gitignore
+git commit -m "ignore: add gitignore for logs and env files"
