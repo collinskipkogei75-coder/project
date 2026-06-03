@@ -1,0 +1,4 @@
+echo '#!/bin/bash' > tool.sh
+echo 'echo "Hello from my tool"' >> tool.sh
+git add tool.sh
+git commit -m "feat: add main script"
